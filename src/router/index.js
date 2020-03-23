@@ -10,9 +10,10 @@ const routes = [
   {
     path: "/",
     name: "games",
-    // component: () =>
+    // component: () 
     //   import(/* webpackChunkName: "about" */ '../views/EventList.vue')
-    component: Games
+    component: Games,
+    props:true
   },
   {
     path: "/games/:id",
@@ -21,7 +22,10 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: GameData,
-    props: true
+    props: (route)=>({
+      game:route.query.game,
+      ...route.params
+    })
   },
   {
     path: "/blog",
@@ -40,7 +44,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "hash",
   base: process.env.BASE_URL,
   routes
 });

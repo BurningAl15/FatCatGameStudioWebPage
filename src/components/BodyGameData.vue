@@ -1,17 +1,22 @@
 <template>
   <section class="body">
     <Hero :heroIcon="heroIcon" />
-    <h2 class="titleTextAndMargin">{{game.name}}</h2>
+    <h2 class="titleTextAndMargin">{{currentGame}}</h2>
+    <!-- <h2 class="titleTextAndMargin">{{currentGame.name}}</h2>
+    -->
+    <!-- <h2 class="titleTextAndMargin">{{currentGame}}</h2> -->
+
     <div class="wrapper">
       <article class="bodyDataButtonList">
-        <img class="cardimage" :src="require(`@/assets/${game.icon}`)" width="400" />
+        <!-- <img class="cardimage" :src="require(`@/assets/${game.icon}`)" width="400" /> -->
+        <!-- <img class="cardimage" :src="require(`@/assets/${currentGame.icon}`)" width="400" /> -->
         <img class="linkImage" src="@/assets/playstore.png" />
         <img class="linkImage" src="@/assets/appstore.png" />
         <img class="linkImage" src="@/assets/appstore.png" />
       </article>
-      <article class="descriptionData">
+      <!-- <article class="descriptionData">
         <p class="paragraph">{{game.description}}</p>
-      </article>
+      </article>-->
     </div>
   </section>
 </template>
@@ -20,8 +25,6 @@
 import Hero from "@/components/Hero.vue";
 
 export default {
-  name: "gameData",
-
   components: {
     Hero
   },
@@ -34,9 +37,10 @@ export default {
         id: 0,
         icon: "FatcatGameStudio.png",
         description: "FatCat Game Studio logo"
-      }
+      },
+      currentGame: this.game,
     };
-  }
+  },
 };
 </script>
 

@@ -1,11 +1,11 @@
 <template>
   <article class="box">
     <!-- click="sucees" -->
-    <router-link :to="{ name: 'gameData', params: { id: game.id, game:game } }" >
-      <img class="cardimage" :src="require(`@/assets/${game.icon}`)" width="150" />
+    <router-link :to="{ name: 'gameData', params: { id: currentGame.id, game:currentGame } }">
+      <img class="cardimage" :src="require(`@/assets/${currentGame.icon}`)" width="150" />
       <!-- <img class="cardimage" src="@/assets/Icon.png" width="150" /> -->
     </router-link>
-    <h2 class="cardtext">{{game.name}}</h2>
+    <h2 class="cardtext">{{currentGame.name}}</h2>
   </article>
 </template>
 
@@ -16,23 +16,18 @@ export default {
   props: {
     game: Object
   },
-  // methods:{
-  //   sucees:function(data){
-  //       router.push({
-  //         name:"currentGame",
-  //         params:{
-  //           items:data
-  //         }
-  //       })
-  //   }
-  // }
+  data() {
+    return {
+      currentGame: this.game
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .box {
   margin: auto;
-  padding: 1%;
+  padding: 2.5%;
   border-radius: 10%;
   color: white;
 }

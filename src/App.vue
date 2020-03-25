@@ -28,13 +28,15 @@ export default {
 $appColor: #2c3e50;
 $wholeBackground: rgba(0, 0, 0, 0.89);
 $logoCircleColor: rgb(61, 61, 61);
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Mukta|Oxygen|Roboto|Roboto+Slab&display=swap");
 
 html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: $wholeBackground;
+  // background: $wholeBackground;
+  background-image: linear-gradient(to bottom, #434343 0%, black 100%);
 }
 
 #app {
@@ -44,6 +46,8 @@ html {
   text-align: center;
   color: $appColor;
   margin-top: 60px;
+  font-family: 'Oxygen', sans-serif;
+
 }
 
 .wrapper {
@@ -81,6 +85,7 @@ html {
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
+
 }
 
 .navBarLogo {
@@ -140,6 +145,9 @@ html {
   position: relative;
   padding: 0 10px 0 10px;
 }
+.element:hover a {
+  color: aquamarine;
+}
 
 .ToRight {
   text-align: end;
@@ -165,6 +173,7 @@ a {
   font-size: 40px;
   margin: auto;
   margin-bottom: 5%;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.77);
 }
 
 .titleTextFooter {

@@ -22,7 +22,7 @@
     </li>
     <li class="element">
       <a target="_blank" href="mailto:fatcatgamestudio.oc@gmail.com">
-        <img class="iconProperties" src="@/assets/icons/linkedin.svg" width="35" />
+        <img class="iconProperties" src="@/assets/icons/parcel.svg" width="35" />
       </a>
     </li>
   </ul>
@@ -42,6 +42,6 @@
   width: 35px;
 
   transform: translate(0, -2px);
-  background: rgb(255, 150, 150);
+  background: aquamarine;
 }
 </style>

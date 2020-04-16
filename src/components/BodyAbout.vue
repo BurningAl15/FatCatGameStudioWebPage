@@ -11,6 +11,8 @@
         </p>
       </article>
     </div>
+    <h2 class="titleTextAndMargin">Our Staff!</h2>
+
     <TeamCardList />
   </section>
 </template>
@@ -29,7 +31,7 @@ export default {
       heroIcon: {
         id: 0,
         icon: "FatcatGameStudio.png",
-        description:"FatCat Game Studio logo"
+        description: "FatCat Game Studio logo"
       }
     };
   }
@@ -52,7 +54,6 @@ export default {
   font-size: 20px;
   text-align: left;
   opacity: 0.8;
-
 }
 
 .aboutBody {
@@ -63,6 +64,4 @@ export default {
   padding: 50px 0 0 0;
   margin-bottom: 10%;
 }
-
-
 </style>

@@ -2,7 +2,6 @@
   <div id="app">
     <main>
       <NavBar />
-      <!-- <Hero /> -->
       <router-view />
     </main>
     <Footer />
@@ -11,7 +10,6 @@
 
 <script>
 import NavBar from "./components/NavBar.vue";
-// import Hero from "./components/Hero.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -173,7 +171,7 @@ a {
   font-size: 40px;
   margin: auto;
   margin-bottom: 5%;
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.77);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.77);
 }
 
 .titleTextFooter {

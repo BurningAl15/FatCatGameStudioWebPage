@@ -2,12 +2,11 @@
   <keep-alive>
     <section v-if="!isLoading" class="body">
       <Hero :heroIcon="heroIcon" />
-      <!-- <h2 class="titleTextAndMargin">{{currentGame.name}}</h2> -->
 
       <div class="wrapper">
         <article class="bodyDataButtonList">
           <!-- <img class="cardimage" :src="require(`@/assets/${game.icon}`)" width="400" /> -->
-          <img class="cardimage" :src="require(`@/assets/GameIcons/${currentGame.icon}`)" />
+          <img class="cardimage" :src="require(`@/assets/GameIcon/${currentGame.icon}`)" />
 
           <div class="platformList">
             <a
@@ -43,7 +42,7 @@
               v-if="currentGame.huaweiUrl"
               :href="`${currentGame.huaweiUrl}`"
             >
-              <img class="imageInLink" src="@/assets/PlatformIcons/itch-io.png" />
+              <img class="imageInLink" src="@/assets/PlatformIcons/appGallery.png" />
             </a>
           </div>
         </article>
@@ -58,7 +57,7 @@
             v-for="image in imgList"
             class="imageConfig"
             :key="image.id"
-            :src="require(`@/assets/${image.imgPath}`)"
+            :src="require(`@/assets/GameIcon/${image.imgPath}`)"
             width="200"
           />
           <!-- </div> -->
@@ -81,20 +80,17 @@
     </section>
     <section v-else class="body">
       <div class="loader">Loading...</div>
-      <!-- <h2 class="titleTextAndMargin">Loading!</h2> -->
     </section>
   </keep-alive>
 </template>
 
 <script>
-// import BodyGameData from "@/components/BodyGameData.vue";
 import EventService from "@/services/EventService.js";
 import Hero from "@/components/Hero.vue";
 
 export default {
   props: ["id", "game"],
   components: {
-    // BodyGameData,
     Hero
   },
   data() {

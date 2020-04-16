@@ -9,16 +9,16 @@
       <div>
         <ul>
           <li class="element ToRight">
-            <a href="/">General Privacy Policy</a>
+            <a href="https://flappy-kitten.flycricket.io/privacy.html" target="_blank">General Privacy Policy</a>
           </li>
           <li class="element ToRight">
-            <a href="/">Mixed Audience Privacy Policy</a>
+            <a href="/" target="_blank">Mixed Audience Privacy Policy</a>
           </li>
           <li class="element ToRight">
-            <a href="/">Do Not Sell My Personal Information</a>
+            <a href="/" target="_blank">Do Not Sell My Personal Information</a>
           </li>
           <li class="element ToRight">
-            <a href="/">Terms Of Service</a>
+            <a href="/" target="_blank">Terms Of Service</a>
           </li>
         </ul>
         <SocialBar />

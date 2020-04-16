@@ -18,7 +18,7 @@ export default {
           id: 0,
           name: "Aldhair Vera",
           position: "CEO / Main Programmer / Game Designer",
-          icon: "AldhairVeraLogo.png",
+          icon: "AldhairVeraIcon.png",
           socialMediaUrl: "https://www.instagram.com/al_vera15/"
         },
         {

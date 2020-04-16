@@ -7,29 +7,64 @@
       <div class="wrapper">
         <article class="bodyDataButtonList">
           <!-- <img class="cardimage" :src="require(`@/assets/${game.icon}`)" width="400" /> -->
-          <img class="cardimage" :src="require(`@/assets/${currentGame.icon}`)" width="400" />
-          <a target="_blank" class="linkImage" :href="`${currentGame.playstoreUrl}`">
-            <img class="imageInLink" src="@/assets/playstore.png" />
-          </a>
-          <a target="_blank" class="linkImage" :href="`${currentGame.appstoreUrl}`">
-            <img class="imageInLink" src="@/assets/appstore.png" />
-          </a>
-          <img class="linkImage" src="@/assets/appstore.png" />
-          <!-- <a></a> -->
+          <img class="cardimage" :src="require(`@/assets/GameIcons/${currentGame.icon}`)" />
+
+          <div class="platformList">
+            <a
+              target="_blank"
+              class="linkImage"
+              v-if="currentGame.playstoreUrl"
+              :href="`${currentGame.playstoreUrl}`"
+            >
+              <img class="imageInLink" src="@/assets/PlatformIcons/playstore.png" />
+            </a>
+
+            <a
+              target="_blank"
+              class="linkImage"
+              v-if="currentGame.appstoreUrl"
+              :href="`${currentGame.appstoreUrl}`"
+            >
+              <img class="imageInLink" src="@/assets/PlatformIcons/appstore.png" />
+            </a>
+
+            <a
+              target="_blank"
+              class="linkImage"
+              v-if="currentGame.itch-ioUrl"
+              :href="`${currentGame.itch-ioUrl}`"
+            >
+              <img class="imageInLink" src="@/assets/PlatformIcons/itch-io.png" />
+            </a>
+
+            <a
+              target="_blank"
+              class="linkImage"
+              v-if="currentGame.huaweiUrl"
+              :href="`${currentGame.huaweiUrl}`"
+            >
+              <img class="imageInLink" src="@/assets/PlatformIcons/itch-io.png" />
+            </a>
+          </div>
         </article>
+
         <article class="descriptionData">
           <p class="paragraph">{{currentGame.description}}</p>
         </article>
+
+        <article class="marginConfig imageList">
+          <!-- <div class="imageList"> -->
+          <img
+            v-for="image in imgList"
+            class="imageConfig"
+            :key="image.id"
+            :src="require(`@/assets/${image.imgPath}`)"
+            width="200"
+          />
+          <!-- </div> -->
+        </article>
+
         <article class="marginConfig">
-          <div class="bodyDataButtonList">
-            <img
-              v-for="image in imgList"
-              class="imageConfig"
-              :key="image.id"
-              :src="require(`@/assets/${image.imgPath}`)"
-              width="200"
-            />
-          </div>
           <div class="video-container">
             <iframe
               class="youtubevideocontainer"
@@ -99,14 +134,17 @@ export default {
   border-radius: 10%;
   background: white;
   padding: 5px;
+  margin-right: 5px;
+  width: 30%;
 }
 
 .linkImage {
   max-width: 25%;
+  padding: 10px 10px 0 0;
   margin: auto auto 0 auto;
 }
 
-.imageInLink{
+.imageInLink {
   max-width: 100%;
 }
 
@@ -115,11 +153,32 @@ export default {
 }
 
 .bodyDataButtonList {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: auto;
   margin-bottom: 5%;
+}
+
+.imageList {
+  width: 100%;
+  display: inline-block;
+  justify-content: space-between;
+  overflow: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.imageList::-webkit-scrollbar {
+  display: none;
+}
+
+.platformList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .descriptionData {
@@ -214,5 +273,7 @@ export default {
 .imageConfig {
   border-radius: 5%;
   flex-wrap: wrap;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 </style>

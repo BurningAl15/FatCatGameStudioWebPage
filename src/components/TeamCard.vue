@@ -2,7 +2,7 @@
   <article class="box">
     <a target="_blank" :href="`${member.socialMediaUrl}`">
       <div class="container">
-        <img class="cardimage" :src="require(`@/assets/${member.icon}`)" width="150" />
+        <img class="cardimage" :src="require(`@/assets/MemberIcons/${member.icon}`)" width="150" />
         <div class="positionContainer">
           <div class="positionAlign">
             <span>{{member.position}}</span>

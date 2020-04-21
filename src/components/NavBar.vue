@@ -7,7 +7,6 @@
     <!-- <a class="navBarLogo" href="index.html">
       <img :src="logoImage" width="60" />
     </!-->
-    <SocialBar />
 
     <nav class="NavBar">
       <!-- <img src="@/assets/FatcatGameStudio.png" width="60"/> -->
@@ -28,6 +27,9 @@
         </li>
       </ul>
     </nav>
+
+    <SocialBar v-if="!showTopMenu"/>
+
   </div>
 </template>
 
@@ -37,7 +39,8 @@ import SocialBar from "./SocialBar.vue";
 export default {
   data() {
     return {
-      logoImage: require("@/assets/FatcatGameStudio.png")
+      logoImage: require("@/assets/FatcatGameStudio.png"),
+      showTopMenu: false,
     };
   },
   components: {
@@ -51,22 +54,22 @@ $navBarColor: #dddddd;
 $logoCircleColor: rgb(61, 61, 61);
 
 .NavBar {
-  display: block;
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -o-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-60%);
+  // display: block;
+  // -webkit-box-flex: 1;
+  // -moz-box-flex: 1;
+  // -o-box-flex: 1;
+  // box-flex: 1;
+  // -webkit-flex: 1 0 auto;
+  // -ms-flex: 1 0 auto;
+  // flex: 1 0 auto;
+  // position: absolute;
+  // bottom: 10px;
+  // left: 50%;
+  // -webkit-transform: translateX(-50%);
+  // -moz-transform: translateX(-50%);
+  // -o-transform: translateX(-50%);
+  // -ms-transform: translateX(-50%);
+  // transform: translateX(-60%);
 }
 
 .navBar-link {

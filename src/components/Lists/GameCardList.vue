@@ -69,4 +69,12 @@ export default {
   margin: auto;
   flex-wrap: wrap;
 }
+@media (max-width:900px){
+  .list {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+}
 </style>

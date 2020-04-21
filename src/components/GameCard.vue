@@ -3,7 +3,6 @@
     <!-- click="sucees" -->
     <router-link :to="{ name: 'gameData', params: { id: currentGame.id, game:currentGame } }">
       <img class="cardimage" :src="require(`@/assets/GameIcon/${currentGame.icon}`)" width="150" />
-      <!-- <img class="cardimage" src="@/assets/Icon.png" width="150" /> -->
     </router-link>
     <h2 class="cardtext">{{currentGame.name}}</h2>
   </article>

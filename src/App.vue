@@ -44,46 +44,105 @@ html {
   text-align: center;
   color: $appColor;
   margin-top: 60px;
-  font-family: 'Oxygen', sans-serif;
-
+  font-family: "Oxygen", sans-serif;
 }
 
 .wrapper {
   max-width: 60%;
   margin: auto;
+  height: 70%;
+
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  // display: box;
+  // display: -webkit-box;
+  // display: -moz-box;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   padding-bottom: 10px;
-  height: 70%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
-  position: relative;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -o-box-orient: horizontal;
-  -webkit-box-lines: multiple;
-  -moz-box-lines: multiple;
-  -o-box-lines: multiple;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+
   -webkit-box-align: end;
   -moz-box-align: end;
   -o-box-align: end;
   -ms-flex-align: end;
   -webkit-align-items: flex-end;
   align-items: flex-end;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  -o-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
 
+  // position: relative;
+  // -webkit-box-orient: horizontal;
+  // -moz-box-orient: horizontal;
+  // -o-box-orient: horizontal;
+  // -webkit-box-lines: multiple;
+  // -moz-box-lines: multiple;
+  // -o-box-lines: multiple;
+  // -webkit-flex-flow: row wrap;
+  // -ms-flex-flow: row wrap;
+  // flex-flow: row wrap;
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    max-width: 40%;
+    margin: auto;
+    height: 70%;
+
+    // display: flex;
+    // display: -webkit-box;
+    // display: -moz-box;
+    // display: -webkit-flex;
+    // display: -ms-flexbox;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    // border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    // padding-bottom: 10px;
+
+    // justify-content: space-between;
+    // -webkit-justify-content: space-between;
+    // -webkit-box-pack: justify;
+    // -moz-box-pack: justify;
+    // -o-box-pack: justify;
+    // -ms-flex-pack: justify;
+
+    // -webkit-box-align: end;
+    // -moz-box-align: end;
+    // -o-box-align: end;
+    // -ms-flex-align: end;
+    // -webkit-align-items: flex-end;
+    // align-items: flex-end;
+  }
+
+  .wrapper > ul {
+    display: none;
+  }
+
+  .wrapper > div > ul {
+    margin: auto;
+    padding-inline-start:0;
+    margin-bottom:8%;
+  }
+
+  .wrapper > div > .side {
+    margin-bottom:1%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapper > div > ul > .ToRight {
+    text-align: center;
+  }
+  .wrapper > div > ul > .element {
+    padding: 0;
+  }
 }
 
 .navBarLogo {
@@ -123,11 +182,11 @@ html {
   align-items: center;
   list-style: none;
 
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  // margin-block-start: 1em;
+  // margin-block-end: 1em;
+  // margin-inline-start: 0px;
+  // margin-inline-end: 0px;
+  // padding-inline-start: 40px;
 }
 
 .element {
@@ -145,6 +204,13 @@ html {
 }
 .element:hover a {
   color: aquamarine;
+}
+
+@media (max-width: 900px) {
+  .element {
+    margin:2%;
+
+  }
 }
 
 .ToRight {

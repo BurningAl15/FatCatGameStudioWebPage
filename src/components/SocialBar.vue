@@ -4,7 +4,7 @@
       <a target="_blank" href="/">
         <img class="iconProperties" src="@/assets/icons/facebook.svg" width="35" />
       </a>
-    </li> -->
+    </li>-->
     <li class="element">
       <a target="_blank" href="https://twitter.com/FatCatGameSt">
         <img class="iconProperties" src="@/assets/icons/twitter.svg" width="35" />
@@ -28,6 +28,7 @@
   </ul>
 </template>
 
+
 <style lang="scss" scoped>
 .iconProperties {
   // color:white;
@@ -43,5 +44,11 @@
 
   transform: translate(0, -2px);
   background: aquamarine;
+}
+
+@media (max-width: 900px) {
+  .iconProperties {
+    width: 40px;
+  }
 }
 </style>

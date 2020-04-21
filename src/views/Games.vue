@@ -1,7 +1,5 @@
 <template>
-  <div>
     <BodyGames />
-  </div>
 </template>
 
 <script>

@@ -3,7 +3,7 @@
     <section v-if="!isLoading" class="body">
       <Hero :heroIcon="heroIcon" />
 
-      <div class="wrapper">
+      <div class="wrapper-gameData">
         <article class="bodyDataButtonList">
           <!-- <img class="cardimage" :src="require(`@/assets/${game.icon}`)" width="400" /> -->
           <img class="cardimage" :src="require(`@/assets/GameIcon/${currentGame.icon}`)" />
@@ -52,7 +52,6 @@
         </article>
 
         <article class="marginConfig imageList">
-          <!-- <div class="imageList"> -->
           <img
             v-for="image in imgList"
             class="imageConfig"
@@ -60,10 +59,9 @@
             :src="require(`@/assets/GameIcon/${image.imgPath}`)"
             width="200"
           />
-          <!-- </div> -->
         </article>
 
-        <article class="marginConfig">
+        <article class="marginConfig youtube">
           <div class="video-container">
             <iframe
               class="youtubevideocontainer"
@@ -122,6 +120,53 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.wrapper-gameData {
+  max-width: 60%;
+  margin: auto;
+  height: 70%;
+
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 10px;
+
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  -o-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+@media (max-width: 900px) {
+  .wrapper-gameData {
+    max-width: 90%;
+  }
+}
+
 .paragraph {
   color: white;
 }
@@ -148,6 +193,10 @@ export default {
   margin-top: 5%;
 }
 
+.youtube{
+  width: 100%;
+}
+
 .bodyDataButtonList {
   width: 100%;
   display: flex;
@@ -158,9 +207,10 @@ export default {
 
 .imageList {
   width: 100%;
-  display: inline-block;
+  // margin:auto;
   justify-content: space-between;
-  overflow: auto;
+  // overflow: auto;
+  overflow-x: scroll;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch; /* [3] */
   -ms-overflow-style: -ms-autohiding-scrollbar;

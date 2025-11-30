@@ -1,5 +1,10 @@
 // vue.config.js
 module.exports = {
   publicPath:
-    "/FatCatGameStudioWebPage/"
+    "/FatCatGameStudioWebPage/",
+  devServer: {
+    watchOptions: {
+      poll: true
+    }
+  }
 };

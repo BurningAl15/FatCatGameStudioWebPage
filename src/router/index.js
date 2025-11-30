@@ -10,20 +10,15 @@ const routes = [
   {
     path: "/",
     name: "games",
-    // component: () 
-    //   import(/* webpackChunkName: "about" */ '../views/EventList.vue')
     component: Games,
-    props:true
+    props: true
   },
   {
     path: "/games/:id",
     name: "gameData",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: GameData,
-    props: (route)=>({
-      game:route.query.game,
+    props: (route) => ({
+      game: route.query.game,
       ...route.params
     })
   },
@@ -36,11 +31,47 @@ const routes = [
     path: "/about",
     name: "about",
     component: About,
+  },
+  {
+    path: "/privacy",
+    name: "privacy",
+    component: () => import("../views/Privacy.vue")
+  },
+  {
+    path: "/privacy/mix2word",
+    name: "privacyMix2Word",
+    component: () => import("../views/PrivacyMix2Word.vue")
+  },
+  {
+    path: "/privacy/pigyear",
+    name: "privacyPigYear",
+    component: () => import("../views/PrivacyPigYear.vue")
+  },
+  {
+    path: "/privacy/lazylovers",
+    name: "privacyLazyLovers",
+    component: () => import("../views/PrivacyLazyLovers.vue")
+  },
+  {
+    path: "/privacy/pizzamaster",
+    name: "privacyPizzaMaster",
+    component: () => import("../views/PrivacyPizzaMaster.vue")
+  },
+  {
+    path: "/privacy/slothysbakery",
+    name: "privacySlothysBakery",
+    component: () => import("../views/PrivacySlothysBakery.vue")
+  },
+  {
+    path: "/privacy/slothyscafe",
+    name: "privacySlothysCafe",
+    component: () => import("../views/PrivacySlothysCafe.vue")
+  },
+  {
+    path: "/privacy/matchtherunes",
+    name: "privacyMatchTheRunes",
+    component: () => import("../views/PrivacyMatchTheRunes.vue")
   }
-  // {
-  //   path:'*',
-  //   component:NotFoundComponent
-  // }
 ];
 
 const router = new VueRouter({

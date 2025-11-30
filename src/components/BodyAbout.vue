@@ -1,19 +1,29 @@
 <template>
-  <section class="body">
-    <Hero :heroIcon="heroIcon" />
-      <h2 class="titleTextAndMargin">We make incredible games!</h2>
-    <div class="wrapper-about bottomMargin">
-      <article class="aboutParagraph">
-        <p>
-          We are FatCat Game Studio, a Peruvian Game Studio that love cience fiction, art, videogames and almost every type of hobby that could make our mind blow.
-          <br />
-          <br />Currently working on mobile games.
-        </p>
-      </article>
+  <section class="about-page">
+    <div class="hero-section">
+      <Hero :heroIcon="heroIcon" />
+      <h1 class="hero-title text-gradient">We make incredible games!</h1>
+      <p class="hero-subtitle">Passionate game developers from Peru 🇵🇪</p>
     </div>
-    <h2 class="titleTextAndMargin">Our Staff!</h2>
 
-    <TeamCardList />
+    <div class="content-section">
+      <div class="about-card glass-card">
+        <h2 class="section-title">About Us</h2>
+        <p class="about-text">
+          We are FatCat Game Studio, a Peruvian Game Studio that loves science fiction, art, 
+          videogames and almost every type of hobby that could make our mind blow.
+        </p>
+        <p class="about-text">
+          Currently working on mobile games with passion and dedication to create fun experiences 
+          for players around the world.
+        </p>
+      </div>
+
+      <div v-if="false" class="team-section">
+        <h2 class="section-title text-gradient">Our Staff!</h2>
+        <TeamCardList />
+      </div>
+    </div>
   </section>
 </template>
 
@@ -39,69 +49,96 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.aboutParagraph {
-  color: white;
-  background: rgba(126, 125, 125, 0.671);
-  border-radius: 10px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
-  //   margin: auto;
-  //   max-width: 60%;
-  font-size: 20px;
-  text-align: left;
-  opacity: 0.8;
+@use "@/styles/design-system.scss" as *;
+
+.about-page {
+  min-height: 100vh;
+  padding-bottom: $space-16;
 }
 
-.aboutBody {
+.hero-section {
   text-align: center;
-  position: relative;
-  z-index: 10;
-  overflow: hidden;
-  padding: 50px 0 0 0;
-  margin-bottom: 10%;
+  padding: $space-12 $space-4 $space-8;
+  margin-bottom: $space-8;
 }
 
-.wrapper-about {
-  max-width: 60%;
-  margin: auto;
-  height: 70%;
+.hero-title {
+  font-size: $text-5xl;
+  font-weight: $font-black;
+  line-height: $leading-tight;
+  margin-bottom: $space-4;
+  animation: fadeInDown 0.8s ease-out;
 
-  display: flex;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-  padding-bottom: 10px;
-
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  -o-box-pack: justify;
-  -ms-flex-pack: justify;
-
-  -webkit-box-align: end;
-  -moz-box-align: end;
-  -o-box-align: end;
-  -ms-flex-align: end;
-  -webkit-align-items: flex-end;
-  align-items: flex-end;
-}
-@media (max-width: 900px) {
-  .wrapper-about {
-    max-width: 90%;
-    margin: auto;
-    height: 70%;
-
-    // display: flex;
-
-    flex-direction: column;
-    align-items: center;
-    margin-bottom:10%;
+  @media (max-width: $breakpoint-md) {
+    font-size: $text-4xl;
   }
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $text-3xl;
+  }
+}
+
+.hero-subtitle {
+  font-size: $text-xl;
+  color: $text-secondary;
+  font-weight: $font-medium;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $text-lg;
+  }
+}
+
+.content-section {
+  max-width: $container-lg;
+  margin: 0 auto;
+  padding: 0 $space-6;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 0 $space-4;
+  }
+}
+
+.about-card {
+  padding: $space-10 $space-8;
+  margin-bottom: $space-12;
+  animation: fadeInUp 0.6s ease-out 0.4s both;
+
+  @media (max-width: $breakpoint-sm) {
+    padding: $space-6 $space-4;
+  }
+}
+
+.section-title {
+  font-size: $text-3xl;
+  font-weight: $font-bold;
+  color: $text-primary;
+  margin-bottom: $space-6;
+  text-align: center;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: $text-2xl;
+  }
+}
+
+.about-text {
+  font-size: $text-lg;
+  color: $text-secondary;
+  line-height: $leading-relaxed;
+  margin-bottom: $space-4;
+  text-align: left;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $text-base;
+  }
+}
+
+.team-section {
+  margin-top: $space-12;
+  animation: fadeInUp 0.6s ease-out 0.6s both;
 }
 </style>

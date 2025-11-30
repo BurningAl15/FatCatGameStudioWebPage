@@ -1,0 +1,282 @@
+// ================================================================
+// Utility Classes
+// Commonly used UI patterns and helpers
+// ================================================================
+
+@use './design-system.scss' as *;
+
+// ----------------------------------------------------------------
+// Layout Utilities
+// ----------------------------------------------------------------
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $space-4;
+  padding-right: $space-4;
+  
+  @media (min-width: $breakpoint-sm) {
+    max-width: $container-sm;
+  }
+  
+  @media (min-width: $breakpoint-md) {
+    max-width: $container-md;
+  }
+  
+  @media (min-width: $breakpoint-lg) {
+    max-width: $container-lg;
+    padding-left: $space-6;
+    padding-right: $space-6;
+  }
+  
+  @media (min-width: $breakpoint-xl) {
+    max-width: $container-xl;
+  }
+  
+  @media (min-width: $breakpoint-2xl) {
+    max-width: $container-2xl;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-4 {
+  gap: $space-4;
+}
+
+.gap-8 {
+  gap: $space-8;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: $breakpoint-md) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+// ----------------------------------------------------------------
+// Glass Card Component
+// ----------------------------------------------------------------
+
+.glass-card {
+  background: $glass-bg;
+  border: 1px solid $glass-border;
+  border-radius: $radius-xl;
+  box-shadow: $glass-shadow;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: $space-6;
+  transition: all $transition-base;
+  
+  &:hover {
+    background: $glass-bg-light;
+    border-color: $glass-border-strong;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
+.glass-card-dark {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid $glass-border;
+  border-radius: $radius-xl;
+  box-shadow: $glass-shadow;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+// ----------------------------------------------------------------
+// Gradient Text
+// ----------------------------------------------------------------
+
+.text-gradient {
+  background: $text-gradient-purple;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-rainbow {
+  background: $text-gradient-rainbow;
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 3s ease infinite;
+}
+
+// ----------------------------------------------------------------
+// Gradient Buttons
+// ----------------------------------------------------------------
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $space-3 $space-6;
+  border-radius: $radius-full;
+  font-weight: $font-semibold;
+  font-size: $text-base;
+  transition: all $transition-base;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  
+  &:focus {
+    outline: 2px solid $accent-cyan;
+    outline-offset: 2px;
+  }
+}
+
+.btn-primary {
+  background: $primary-gradient;
+  color: $text-primary;
+  box-shadow: 0 4px 15px 0 rgba(102, 126, 234, 0.4);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px 0 rgba(102, 126, 234, 0.6);
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.btn-secondary {
+  background: transparent;
+  color: $text-primary;
+  border: 2px solid $glass-border;
+  backdrop-filter: blur(10px);
+  
+  &:hover {
+    border-color: $primary-purple;
+    background: rgba(102, 126, 234, 0.1);
+  }
+}
+
+.btn-sm {
+  padding: $space-2 $space-4;
+  font-size: $text-sm;
+}
+
+.btn-lg {
+  padding: $space-4 $space-8;
+  font-size: $text-lg;
+}
+
+// ----------------------------------------------------------------
+// Text Utilities
+// ----------------------------------------------------------------
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: $text-primary;
+}
+
+.text-secondary {
+  color: $text-secondary;
+}
+
+.text-muted {
+  color: $text-muted;
+}
+
+.font-bold {
+  font-weight: $font-bold;
+}
+
+.font-semibold {
+  font-weight: $font-semibold;
+}
+
+// ----------------------------------------------------------------
+// Spacing Utilities
+// ----------------------------------------------------------------
+
+.mt-4 { margin-top: $space-4; }
+.mt-8 { margin-top: $space-8; }
+.mt-12 { margin-top: $space-12; }
+.mt-16 { margin-top: $space-16; }
+
+.mb-4 { margin-bottom: $space-4; }
+.mb-8 { margin-bottom: $space-8; }
+.mb-12 { margin-bottom: $space-12; }
+.mb-16 { margin-bottom: $space-16; }
+
+.p-4 { padding: $space-4; }
+.p-6 { padding: $space-6; }
+.p-8 { padding: $space-8; }
+
+// ----------------------------------------------------------------
+// Background Utilities
+// ----------------------------------------------------------------
+
+.bg-gradient {
+  background: $primary-gradient;
+}
+
+.bg-dark {
+  background: $bg-dark-1;
+}
+
+.bg-glass {
+  background: $glass-bg;
+  backdrop-filter: blur(10px);
+}
+
+// ----------------------------------------------------------------
+// Responsive Utilities
+// ----------------------------------------------------------------
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: #{$breakpoint-md - 1px}) {
+  .md\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .md\:block {
+    display: block;
+  }
+}

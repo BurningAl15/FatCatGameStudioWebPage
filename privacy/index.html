@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Políticas de Privacidad – FatCat Game Studio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .game-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .game-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        .game-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .game-card .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+        }
+
+        .game-card .btn:hover {
+            opacity: 0.9;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .coming-soon {
+            opacity: 0.6;
+            position: relative;
+        }
+
+        .coming-soon::after {
+            content: "Próximamente";
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #fbbf24;
+            color: #000;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .games-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 FatCat Game Studio</h1>
+            <p>Políticas de Privacidad de Nuestros Juegos</p>
+        </div>
+
+        <div class="games-grid">
+            <!-- Mix2Word Card -->
+            <a href="mix2word.html" class="game-card">
+                <h2>🔤 Mix2Word</h2>
+                <p>Juego de palabras y vocabulario. Conecta letras, forma palabras y mejora tu habilidad lingüística.
+                </p>
+                <span class="btn">Ver Política de Privacidad →</span>
+            </a>
+
+            <!-- Template for more games - Remove coming-soon class when ready -->
+            <div class="game-card coming-soon">
+                <h2>🎯 Tu Próximo Juego</h2>
+                <p>Descripción de tu próximo juego. Añade aquí la información cuando esté listo.</p>
+                <span class="btn">Ver Política de Privacidad →</span>
+            </div>
+
+            <div class="game-card coming-soon">
+                <h2>🎮 Otro Juego</h2>
+                <p>Descripción de otro juego. Añade aquí la información cuando esté listo.</p>
+                <span class="btn">Ver Política de Privacidad →</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>Contacto</h3>
+            <p>Para consultas sobre privacidad y datos:</p>
+            <p><strong>Email:</strong> <a href="mailto:fatcatgamestudio@gmail.com">fatcatgamestudio@gmail.com</a></p>
+            <p style="margin-top: 20px; opacity: 0.8;">© 2025 FatCat Game Studio. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+
+</html>

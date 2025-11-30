@@ -1,0 +1,109 @@
+{
+  "games": [
+    {
+      "id": 0,
+      "name": "Mix2Word",
+      "icon": "Mix2WordIcon.png",
+      "description": "Word and vocabulary game. Connect letters, form words and improve your language skills.",
+      "platforms": [
+        "Android"
+      ],
+      "genre": "Puzzle",
+      "privacyPolicy": "/privacy/mix2word",
+      "storeLinks": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.Mix2Word"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Pig Year Food Fight",
+      "icon": "PigYearLogo.png",
+      "description": "Celebrate Chinese New Year with adorable pigs in fast-eating battles. Play 1v1 with friends or train against an AI pig with adjustable difficulty levels.",
+      "platforms": [
+        "Android"
+      ],
+      "genre": "Casual",
+      "privacyPolicy": "/privacy/pigyear",
+      "storeLinks": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PigYearFF"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lazy Lovers",
+      "icon": "LazyLovers.png",
+      "description": "Mobile puzzle/platformer using gyroscope and accelerometer: tilt your phone to help a sloth reach his girlfriend.",
+      "platforms": [
+        "Android"
+      ],
+      "genre": "Puzzle",
+      "privacyPolicy": "/privacy/lazylovers",
+      "storeLinks": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.LazyLovers"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Slothy's Pizza Master",
+      "icon": "PizzaMasterLogo.png",
+      "description": "Educational fractions game where you manage a pizzeria and solve math-based puzzles with cute characters.",
+      "platforms": [
+        "Android",
+        "Web"
+      ],
+      "genre": "Educational",
+      "privacyPolicy": "/privacy/pizzamaster",
+      "storeLinks": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PizzaMaster",
+        "itch": "https://fatcatgamestudio.itch.io/pizza-master",
+        "youtube": "https://youtu.be/5XpLHl2ZkQQ"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Slothy's Bakery",
+      "icon": "LogoSlothysBakery.png",
+      "description": "Educational fractions game where you run a bakery and learn through interactive recipes and orders.",
+      "platforms": [
+        "Android",
+        "Web"
+      ],
+      "genre": "Educational",
+      "privacyPolicy": "/privacy/slothysbakery",
+      "storeLinks": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysBakery",
+        "itch": "https://fatcatgamestudio.itch.io/slothys-bakery"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Slothy's Café",
+      "icon": "SlothysLogo.png",
+      "description": "Casual/educational mobile title in the Slothy universe with cooking and management loops.",
+      "platforms": [
+        "Android",
+        "Web"
+      ],
+      "genre": "Educational",
+      "privacyPolicy": "/privacy/slothyscafe",
+      "storeLinks": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysCafe",
+        "itch": "https://fatcatgamestudio.itch.io/slothys-cafe"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Match the Runes",
+      "icon": "MatchTheRunes.png",
+      "description": "Classic memory match game with rune-themed visuals, designed as a casual educational mobile title.",
+      "platforms": [
+        "Android"
+      ],
+      "genre": "Memory",
+      "privacyPolicy": "/privacy/matchtherunes",
+      "storeLinks": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.MatchTheRunes"
+      }
+    }
+  ]
+}

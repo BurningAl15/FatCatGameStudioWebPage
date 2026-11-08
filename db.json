@@ -1,4 +1,5 @@
 {
+  "updatedAt": "2026-11-08T08:07:42Z",
   "games": [
     {
       "name": "Mix2Word",
@@ -67,6 +68,7 @@
       "slug": "mix2word",
       "description": "A mobile and web puzzle where two images hint at a word you build from the available letters.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/mix2word",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.png",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGame.Mix2Word",
         "itch": null,
@@ -140,6 +142,7 @@
       "slug": "pigYearFoodFight",
       "description": "A fast-paced food-fight game with colorful characters and quick matches.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/pigyear",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.png",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PigYearFF",
         "itch": null,
@@ -213,6 +216,7 @@
       "slug": "lazyLovers",
       "description": "A mobile maze game where you tilt your phone to guide a sloth through hazards and toward his girlfriend.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/lazylovers",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.png",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.LazyLovers",
         "itch": null,
@@ -287,6 +291,7 @@
       "slug": "slothysPizzaMaster",
       "description": "An educational fractions game where you run a pizzeria, prepare orders and solve interactive mini-games.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/pizzamaster",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.png",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PizzaMaster",
         "itch": "https://fatcatgamestudio.itch.io/pizza-master",
@@ -361,6 +366,7 @@
       "slug": "slothysBakery",
       "description": "A kid-friendly bakery game with recipes, customer orders and fractions woven into everyday play.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/slothysbakery",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.png",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysBakery",
         "itch": "https://fatcatgamestudio.itch.io/slothys-bakery",
@@ -435,6 +441,7 @@
       "slug": "slothysCafe",
       "description": "A casual cooking and café-management game with light math woven into orders and preparation.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/slothyscafe",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.png",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysCafe",
         "itch": "https://fatcatgamestudio.itch.io/slothys-cafe",
@@ -508,6 +515,7 @@
       "slug": "matchTheRunes",
       "description": "A rune-themed memory game where you flip cards and find matching pairs.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/matchtherunes",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.png",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.MatchTheRunes",
         "itch": null,

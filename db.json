@@ -37,8 +37,8 @@
       "webStatus": "not_submitted",
       "androidUrl": "https://play.google.com/store/apps/details?id=com.FatCatGame.Mix2Word",
       "webUrl": null,
-      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.png",
-      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.png",
+      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.webp",
+      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.webp",
       "screenshots": [
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/mix2word/1.webp",
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/mix2word/2.webp",
@@ -68,7 +68,7 @@
       "slug": "mix2word",
       "description": "A mobile and web puzzle where two images hint at a word you build from the available letters.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/mix2word",
-      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.png",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.webp",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGame.Mix2Word",
         "itch": null,
@@ -111,8 +111,8 @@
       "webStatus": "not_submitted",
       "androidUrl": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PigYearFF",
       "webUrl": null,
-      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.png",
-      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.png",
+      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.webp",
+      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.webp",
       "screenshots": [
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/pig-year-food-fight/0_1.webp",
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/pig-year-food-fight/1.webp",
@@ -142,7 +142,7 @@
       "slug": "pigYearFoodFight",
       "description": "A fast-paced food-fight game with colorful characters and quick matches.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/pigyear",
-      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.png",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.webp",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PigYearFF",
         "itch": null,
@@ -185,8 +185,8 @@
       "webStatus": "not_submitted",
       "androidUrl": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.LazyLovers",
       "webUrl": null,
-      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.png",
-      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.png",
+      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.webp",
+      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.webp",
       "screenshots": [
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/lazy-lovers/0.webp",
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/lazy-lovers/1.webp",
@@ -216,7 +216,7 @@
       "slug": "lazyLovers",
       "description": "A mobile maze game where you tilt your phone to guide a sloth through hazards and toward his girlfriend.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/lazylovers",
-      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.png",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.webp",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.LazyLovers",
         "itch": null,
@@ -260,8 +260,8 @@
       "webStatus": "live",
       "androidUrl": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PizzaMaster",
       "webUrl": "https://fatcatgamestudio.itch.io/pizza-master",
-      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.png",
-      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.png",
+      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.webp",
+      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.webp",
       "screenshots": [
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-pizza-master/1.webp",
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-pizza-master/2.webp",
@@ -291,7 +291,7 @@
       "slug": "slothysPizzaMaster",
       "description": "An educational fractions game where you run a pizzeria, prepare orders and solve interactive mini-games.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/pizzamaster",
-      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.png",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.webp",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PizzaMaster",
         "itch": "https://fatcatgamestudio.itch.io/pizza-master",
@@ -335,8 +335,8 @@
       "webStatus": "live",
       "androidUrl": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysBakery",
       "webUrl": "https://fatcatgamestudio.itch.io/slothys-bakery",
-      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.png",
-      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.png",
+      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.webp",
+      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.webp",
       "screenshots": [
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-bakery/0_1.webp",
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-bakery/1.webp",
@@ -366,7 +366,7 @@
       "slug": "slothysBakery",
       "description": "A kid-friendly bakery game with recipes, customer orders and fractions woven into everyday play.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/slothysbakery",
-      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.png",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.webp",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysBakery",
         "itch": "https://fatcatgamestudio.itch.io/slothys-bakery",
@@ -410,8 +410,8 @@
       "webStatus": "live",
       "androidUrl": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysCafe",
       "webUrl": "https://fatcatgamestudio.itch.io/slothys-cafe",
-      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.png",
-      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.png",
+      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.webp",
+      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.webp",
       "screenshots": [
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-cafe/1.webp",
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-cafe/2.webp",
@@ -441,7 +441,7 @@
       "slug": "slothysCafe",
       "description": "A casual cooking and café-management game with light math woven into orders and preparation.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/slothyscafe",
-      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.png",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.webp",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysCafe",
         "itch": "https://fatcatgamestudio.itch.io/slothys-cafe",
@@ -484,8 +484,8 @@
       "webStatus": "not_submitted",
       "androidUrl": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.MatchTheRunes",
       "webUrl": null,
-      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.png",
-      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.png",
+      "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.webp",
+      "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.webp",
       "screenshots": [
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/match-the-runes/1.webp",
         "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/match-the-runes/2.webp",
@@ -515,7 +515,7 @@
       "slug": "matchTheRunes",
       "description": "A rune-themed memory game where you flip cards and find matching pairs.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/matchtherunes",
-      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.png",
+      "icon": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.webp",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.MatchTheRunes",
         "itch": null,

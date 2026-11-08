@@ -11,24 +11,24 @@
       "localized": {
         "en-US": {
           "name": "Mix2Word",
-          "tagline": "Build words one syllable at a time",
-          "description": "A relaxing word puzzle about combining syllables in the right order.",
-          "overview": "Connect syllables, form words, and take on increasingly challenging levels in a compact vocabulary game.",
+          "tagline": "Two pictures. One word to uncover.",
+          "description": "A mobile and web puzzle where two images hint at a word you build from the available letters.",
+          "overview": "Each level presents two images that point to one word or idea. Use the available letters to solve it, then move through short challenges with progressively greater difficulty.",
           "features": [
-            "Combine syllables to form words",
-            "Progress through increasingly challenging levels",
-            "Play a casual vocabulary puzzle"
+            "Solve a word from two picture clues",
+            "Build the answer with a pool of letters",
+            "Play short levels with progressive difficulty"
           ]
         },
         "es-ES": {
           "name": "Mix2Word",
-          "tagline": "Forma palabras sílaba por sílaba",
-          "description": "Un juego de palabras relajado donde unes sílabas en el orden correcto.",
-          "overview": "Une sílabas, forma palabras y supera niveles cada vez más desafiantes en un juego de vocabulario.",
+          "tagline": "Dos imágenes. Una palabra por descubrir.",
+          "description": "Un juego de puzles para móvil y web donde dos imágenes dan pistas de una palabra que formas con las letras disponibles.",
+          "overview": "Cada nivel presenta dos imágenes que apuntan a una palabra o idea. Usa las letras disponibles para resolverla y avanza por retos breves de dificultad progresiva.",
           "features": [
-            "Combina sílabas para formar palabras",
-            "Avanza por niveles con dificultad progresiva",
-            "Disfruta un puzle casual de vocabulario"
+            "Descifra una palabra a partir de dos imágenes",
+            "Forma la respuesta con un conjunto de letras",
+            "Avanza por niveles cortos de dificultad progresiva"
           ]
         }
       },
@@ -38,13 +38,17 @@
       "webUrl": null,
       "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.png",
       "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/Mix2WordIcon.png",
-      "screenshots": [],
+      "screenshots": [
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/mix2word/1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/mix2word/2.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/mix2word/3.webp"
+      ],
       "privacyUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/mix2word",
       "itchUrl": null,
       "trailerUrl": null,
       "id": "mix2word",
       "slug": "mix2word",
-      "description": "A relaxing word puzzle about combining syllables in the right order.",
+      "description": "A mobile and web puzzle where two images hint at a word you build from the available letters.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/mix2word",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGame.Mix2Word",
@@ -56,31 +60,31 @@
       "name": "Pig Year: Food Fight",
       "enabled": true,
       "order": 20,
-      "genre": "Casual",
+      "genre": "Arcade · action",
       "platforms": [
         "Android"
       ],
       "localized": {
         "en-US": {
           "name": "Pig Year: Food Fight",
-          "tagline": "Fast food battles with adorable pigs",
-          "description": "Race adorable pigs in fast eating battles, solo or with a friend.",
-          "overview": "Compete in quick eating duels, challenge a friend in 1v1, or practice against an AI pig with adjustable difficulty.",
+          "tagline": "A playful food fight with a chaotic streak.",
+          "description": "A fast-paced food-fight game with colorful characters and quick matches.",
+          "overview": "Join the FatCat and Slothy universe for lively food battles between its characters. The action is quick, visual and built around short, playful matches.",
           "features": [
-            "1v1 matches with a friend",
-            "Practice against AI opponents",
-            "Adjustable AI difficulty"
+            "Fast-paced food-fight matches",
+            "A colorful cast of characters",
+            "Short, playful mobile sessions"
           ]
         },
         "es-ES": {
           "name": "Pig Year: Food Fight",
-          "tagline": "Batallas de comida con cerditos adorables",
-          "description": "Compite en carreras de comida a solas o con alguien más.",
-          "overview": "Participa en duelos rápidos, reta a alguien en partidas 1 contra 1 o practica contra un cerdito controlado por IA.",
+          "tagline": "Una batalla de comida con mucho caos y diversión.",
+          "description": "Un juego de batallas de comida rápidas protagonizado por personajes coloridos.",
+          "overview": "Entra al universo de FatCat y Slothy para participar en batallas de comida entre sus personajes. La acción es rápida, visual y pensada para partidas breves y divertidas.",
           "features": [
-            "Partidas 1 contra 1",
-            "Reta a oponentes controlados por IA",
-            "Niveles de dificultad ajustables"
+            "Partidas rápidas de batalla de comida",
+            "Un elenco colorido de personajes",
+            "Sesiones móviles breves y divertidas"
           ]
         }
       },
@@ -90,13 +94,17 @@
       "webUrl": null,
       "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.png",
       "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PigYearLogo.png",
-      "screenshots": [],
+      "screenshots": [
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/pig-year-food-fight/0_1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/pig-year-food-fight/1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/pig-year-food-fight/2.webp"
+      ],
       "privacyUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/pigyear",
       "itchUrl": null,
       "trailerUrl": null,
       "id": "pigYearFoodFight",
       "slug": "pigYearFoodFight",
-      "description": "Race adorable pigs in fast eating battles, solo or with a friend.",
+      "description": "A fast-paced food-fight game with colorful characters and quick matches.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/pigyear",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PigYearFF",
@@ -108,31 +116,31 @@
       "name": "Lazy Lovers",
       "enabled": true,
       "order": 30,
-      "genre": "Puzzle platformer",
+      "genre": "Motion-control maze",
       "platforms": [
         "Android"
       ],
       "localized": {
         "en-US": {
           "name": "Lazy Lovers",
-          "tagline": "Tilt your way back to love",
-          "description": "A mobile puzzle platformer controlled with your phone's motion sensors.",
-          "overview": "Guide a sloth through the level by tilting your phone and help him reunite with his girlfriend.",
+          "tagline": "Guide a sloth with a tilt of your phone.",
+          "description": "A mobile maze game where you tilt your phone to guide a sloth through hazards and toward his girlfriend.",
+          "overview": "Use your phone’s gyroscope and accelerometer to guide a sloth through winding paths, avoid hazards and reach the goal. Short levels focus on motion-based navigation rather than precision platforming.",
           "features": [
-            "Gyroscope and accelerometer controls",
-            "Puzzle platforming levels",
-            "A sloth-sized story about reunion"
+            "Navigate winding maze levels by tilting your phone",
+            "Use motion controls tuned for comfortable movement",
+            "Avoid hazards and reach the goal"
           ]
         },
         "es-ES": {
           "name": "Lazy Lovers",
-          "tagline": "Inclina el teléfono para reencontrar el amor",
-          "description": "Un juego móvil de plataformas y puzles que usa los sensores de movimiento.",
-          "overview": "Guía a un perezoso inclinando el teléfono para ayudarlo a reencontrarse con su pareja.",
+          "tagline": "Guía a un perezoso inclinando tu teléfono.",
+          "description": "Un juego móvil de laberintos donde inclinas el teléfono para guiar a un perezoso entre obstáculos hasta llegar con su novia.",
+          "overview": "Usa el giroscopio y el acelerómetro del teléfono para guiar al perezoso por caminos sinuosos, evitar peligros y alcanzar la meta. Los niveles breves se centran en la navegación por movimiento, no en saltos de precisión.",
           "features": [
-            "Controles con giroscopio y acelerómetro",
-            "Niveles de plataformas y puzles",
-            "Una historia de reencuentro"
+            "Recorre laberintos inclinando el teléfono",
+            "Controles de movimiento ajustados para desplazarse con comodidad",
+            "Evita obstáculos y alcanza la meta"
           ]
         }
       },
@@ -142,13 +150,17 @@
       "webUrl": null,
       "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.png",
       "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LazyLovers.png",
-      "screenshots": [],
+      "screenshots": [
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/lazy-lovers/0.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/lazy-lovers/1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/lazy-lovers/2.webp"
+      ],
       "privacyUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/lazylovers",
       "itchUrl": null,
       "trailerUrl": null,
       "id": "lazyLovers",
       "slug": "lazyLovers",
-      "description": "A mobile puzzle platformer controlled with your phone's motion sensors.",
+      "description": "A mobile maze game where you tilt your phone to guide a sloth through hazards and toward his girlfriend.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/lazylovers",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.LazyLovers",
@@ -168,24 +180,24 @@
       "localized": {
         "en-US": {
           "name": "Slothy's Pizza Master",
-          "tagline": "Learn fractions in a cozy pizzeria",
-          "description": "Run a pizzeria and solve playful fraction puzzles with Slothy.",
-          "overview": "Slice pizzas, add toppings, and solve visual challenges while learning fractions through hands-on mini-games.",
+          "tagline": "Learn fractions, one pizza order at a time.",
+          "description": "An educational fractions game where you run a pizzeria, prepare orders and solve interactive mini-games.",
+          "overview": "Join Slothy in a pizzeria where making and serving orders leads into playful fraction challenges. Cooking, customer requests and math are part of the same casual game flow.",
           "features": [
-            "Learn fraction recognition and comparison",
-            "Explore halves, thirds, quarters, fifths, and sixths",
-            "Play four pizza-themed mini-games"
+            "Prepare pizzas and complete customer orders",
+            "Practice fractions through interactive mini-games",
+            "Explore a playful, family-friendly pizzeria"
           ]
         },
         "es-ES": {
           "name": "Slothy's Pizza Master",
-          "tagline": "Aprende fracciones en una pizzería acogedora",
-          "description": "Administra una pizzería y resuelve retos de fracciones con Slothy.",
-          "overview": "Corta pizzas, agrega ingredientes y resuelve retos visuales mientras practicas fracciones con minijuegos.",
+          "tagline": "Aprende fracciones pedido a pedido.",
+          "description": "Un juego educativo de fracciones donde gestionas una pizzería, preparas pedidos y resuelves minijuegos.",
+          "overview": "Acompaña a Slothy en una pizzería donde preparar y servir pedidos conduce a retos de fracciones. La cocina, las solicitudes de los clientes y las matemáticas forman parte de una misma experiencia casual.",
           "features": [
-            "Reconoce y compara fracciones",
-            "Practica medios, tercios, cuartos, quintos y sextos",
-            "Juega cuatro minijuegos temáticos de pizza"
+            "Prepara pizzas y completa pedidos",
+            "Practica fracciones mediante minijuegos interactivos",
+            "Explora una pizzería divertida para toda la familia"
           ]
         }
       },
@@ -195,13 +207,17 @@
       "webUrl": "https://fatcatgamestudio.itch.io/pizza-master",
       "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.png",
       "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/PizzaMasterLogo.png",
-      "screenshots": [],
+      "screenshots": [
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-pizza-master/1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-pizza-master/2.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-pizza-master/3.webp"
+      ],
       "privacyUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/pizzamaster",
       "itchUrl": "https://fatcatgamestudio.itch.io/pizza-master",
       "trailerUrl": "https://youtu.be/5XpLHl2ZkQQ",
       "id": "slothysPizzaMaster",
       "slug": "slothysPizzaMaster",
-      "description": "Run a pizzeria and solve playful fraction puzzles with Slothy.",
+      "description": "An educational fractions game where you run a pizzeria, prepare orders and solve interactive mini-games.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/pizzamaster",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.PizzaMaster",
@@ -221,24 +237,24 @@
       "localized": {
         "en-US": {
           "name": "Slothy's Bakery",
-          "tagline": "Bake treats and learn fractions",
-          "description": "Run a bakery through interactive recipes, orders, and fraction puzzles.",
-          "overview": "Help Slothy make desserts while practicing equivalent fractions, comparing portions, and solving visual challenges.",
+          "tagline": "Run a cozy bakery and learn as you bake.",
+          "description": "A kid-friendly bakery game with recipes, customer orders and fractions woven into everyday play.",
+          "overview": "Help Slothy manage a bakery, follow recipes and serve customers while practicing fractions through hands-on tasks. The game is part of the Slothy series and has Google Play Teacher Approved recognition.",
           "features": [
-            "Interactive fraction mini-games",
-            "Progressive difficulty and helpful hints",
-            "A cozy bakery world for home or classroom practice"
+            "Follow recipes and handle bakery orders",
+            "Practice fractions through practical activities",
+            "Play in a cozy, child-friendly bakery"
           ]
         },
         "es-ES": {
           "name": "Slothy's Bakery",
-          "tagline": "Prepara postres y aprende fracciones",
-          "description": "Administra una panadería con recetas, pedidos y retos de fracciones.",
-          "overview": "Ayuda a Slothy a preparar postres mientras practicas fracciones equivalentes, comparas porciones y resuelves retos visuales.",
+          "tagline": "Administra una panadería acogedora mientras aprendes.",
+          "description": "Un juego de panadería para niños con recetas, pedidos y fracciones integradas en la experiencia.",
+          "overview": "Ayuda a Slothy a administrar una panadería, seguir recetas y atender a los clientes mientras practicas fracciones con actividades prácticas. Es parte de la serie Slothy y cuenta con el reconocimiento Teacher Approved de Google Play.",
           "features": [
-            "Minijuegos interactivos de fracciones",
-            "Dificultad progresiva y pistas útiles",
-            "Una panadería acogedora para casa o el aula"
+            "Sigue recetas y atiende pedidos de la panadería",
+            "Practica fracciones con actividades prácticas",
+            "Disfruta una panadería acogedora para niños"
           ]
         }
       },
@@ -248,13 +264,17 @@
       "webUrl": "https://fatcatgamestudio.itch.io/slothys-bakery",
       "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.png",
       "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/LogoSlothysBakery.png",
-      "screenshots": [],
+      "screenshots": [
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-bakery/0_1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-bakery/1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-bakery/2.webp"
+      ],
       "privacyUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/slothysbakery",
       "itchUrl": "https://fatcatgamestudio.itch.io/slothys-bakery",
       "trailerUrl": null,
       "id": "slothysBakery",
       "slug": "slothysBakery",
-      "description": "Run a bakery through interactive recipes, orders, and fraction puzzles.",
+      "description": "A kid-friendly bakery game with recipes, customer orders and fractions woven into everyday play.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/slothysbakery",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysBakery",
@@ -274,24 +294,24 @@
       "localized": {
         "en-US": {
           "name": "Slothy's Café",
-          "tagline": "A cozy café full of fraction puzzles",
-          "description": "Cook sweet treats and practice fractions in the Slothy universe.",
-          "overview": "Join Slothy for a relaxed cooking adventure with cake slicing, fraction matching, and playful learning activities.",
+          "tagline": "A cozy café with a little learning on the menu.",
+          "description": "A casual cooking and café-management game with light math woven into orders and preparation.",
+          "overview": "Serve drinks and snacks in Slothy’s welcoming café. Cooking and management make up the core loop, with educational elements included in ordering and preparation.",
           "features": [
-            "Two educational mini-games",
-            "Practice equivalent and comparable fractions",
-            "Cozy hand-drawn art and simple controls"
+            "Serve drinks and snacks in a cozy café",
+            "Manage a casual cooking and service loop",
+            "Encounter light math in orders and preparation"
           ]
         },
         "es-ES": {
           "name": "Slothy's Café",
-          "tagline": "Un café acogedor lleno de fracciones",
-          "description": "Prepara postres y practica fracciones en el universo de Slothy.",
-          "overview": "Acompaña a Slothy en una aventura tranquila de cocina con porciones de pastel, parejas de fracciones y aprendizaje jugando.",
+          "tagline": "Un café acogedor con un poco de aprendizaje en el menú.",
+          "description": "Un juego casual de cocina y gestión de cafetería con matemáticas sencillas integradas en los pedidos y la preparación.",
+          "overview": "Sirve bebidas y bocadillos en el acogedor café de Slothy. La cocina y la gestión forman el ciclo principal, con elementos educativos integrados en los pedidos y la preparación.",
           "features": [
-            "Dos minijuegos educativos",
-            "Practica fracciones equivalentes y comparaciones",
-            "Arte acogedor y controles sencillos"
+            "Sirve bebidas y bocadillos en un café acogedor",
+            "Gestiona una experiencia casual de cocina y servicio",
+            "Practica matemáticas sencillas en pedidos y preparación"
           ]
         }
       },
@@ -301,13 +321,17 @@
       "webUrl": "https://fatcatgamestudio.itch.io/slothys-cafe",
       "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.png",
       "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/SlothysLogo.png",
-      "screenshots": [],
+      "screenshots": [
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-cafe/1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-cafe/2.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/slothys-cafe/3.webp"
+      ],
       "privacyUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/slothyscafe",
       "itchUrl": "https://fatcatgamestudio.itch.io/slothys-cafe",
       "trailerUrl": null,
       "id": "slothysCafe",
       "slug": "slothysCafe",
-      "description": "Cook sweet treats and practice fractions in the Slothy universe.",
+      "description": "A casual cooking and café-management game with light math woven into orders and preparation.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/slothyscafe",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.SlothysCafe",
@@ -326,24 +350,24 @@
       "localized": {
         "en-US": {
           "name": "Memorama: Match the Runes",
-          "tagline": "A rune-themed memory challenge",
-          "description": "Find matching rune pairs in a casual memory game.",
-          "overview": "Test your memory by finding matching pairs among rune-themed cards in a quick, focused puzzle.",
+          "tagline": "Turn over runes. Find every matching pair.",
+          "description": "A rune-themed memory game where you flip cards and find matching pairs.",
+          "overview": "Reveal rune-inscribed cards, remember where each symbol appears and match the pairs. The simple, focused format is made for short casual sessions.",
           "features": [
-            "Classic pair-matching gameplay",
-            "Rune-inspired visual theme",
-            "Short casual sessions"
+            "Flip cards to reveal rune symbols",
+            "Remember positions and match pairs",
+            "Play a quick, focused memory puzzle"
           ]
         },
         "es-ES": {
           "name": "Memorama: Match the Runes",
-          "tagline": "Un reto de memoria con runas",
-          "description": "Encuentra parejas de runas en un juego casual de memoria.",
-          "overview": "Pon a prueba tu memoria buscando parejas entre cartas inspiradas en runas en un puzle breve y concentrado.",
+          "tagline": "Voltea las runas y encuentra todas las parejas.",
+          "description": "Un juego de memoria con temática de runas en el que volteas cartas y encuentras parejas.",
+          "overview": "Descubre las cartas con runas, recuerda dónde aparece cada símbolo y forma las parejas. Su formato sencillo y directo está pensado para partidas casuales y breves.",
           "features": [
-            "Mecánica clásica de encontrar parejas",
-            "Estética inspirada en runas",
-            "Partidas casuales y breves"
+            "Voltea las cartas para revelar símbolos rúnicos",
+            "Recuerda las posiciones y encuentra las parejas",
+            "Juega un puzle de memoria breve y enfocado"
           ]
         }
       },
@@ -353,13 +377,17 @@
       "webUrl": null,
       "iconUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.png",
       "coverUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/MatchTheRunes.png",
-      "screenshots": [],
+      "screenshots": [
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/match-the-runes/1.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/match-the-runes/2.webp",
+        "https://burningal15.github.io/FatCatGameStudioWebPage/site-assets/games/match-the-runes/3.webp"
+      ],
       "privacyUrl": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/matchtherunes",
       "itchUrl": null,
       "trailerUrl": null,
       "id": "matchTheRunes",
       "slug": "matchTheRunes",
-      "description": "Find matching rune pairs in a casual memory game.",
+      "description": "A rune-themed memory game where you flip cards and find matching pairs.",
       "privacyPolicy": "https://burningal15.github.io/FatCatGameStudioWebPage/#/privacy/matchtherunes",
       "storeLinks": {
         "googlePlay": "https://play.google.com/store/apps/details?id=com.FatCatGameStudio.MatchTheRunes",
